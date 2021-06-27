@@ -8,7 +8,7 @@ export type AlbumHeaderProps = {
     album: AlbumType
 }
 
-const AlbumHeader = (props: { album: any }) => {
+const AlbumHeader = (props: AlbumHeaderProps) => {
     const { album } = props
     return (
         <View style={styles.container}>
